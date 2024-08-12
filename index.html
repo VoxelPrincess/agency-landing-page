@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sunnyside agency landing page - Frontend Mentor">
+  <meta name="keywords" content="Sunnyside agency landing page, Frontend Mentor">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Sunnyside agency landing page</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav header__nav">
+      <img class="logo nav__logo" src="./img/logo.svg" alt="">
+
+      <div class="menu nav__menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#about">About</a> </li>
+          <li class="menu__item"><a href="#services">Services</a> </li>
+          <li class="menu__item"><a href="#projects">Projects</a></li>
+        </ul>
+
+        <a class="menu__contact" href="/">Contact</a>
+      </div>
+
+      <svg class="menu-toggle" viewBox="0 0 32 32">
+        <path
+          d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
+          fill="currentColor" />
+      </svg>
+    </nav>
+
+    <div class="header__slogan">We are creatives</div>
+    <img class="header__next" src="./img/icon-arrow-down.svg" alt="next">
+  </header>
+
+  <main>
+    <article class="mission transform" id="about">
+      <aside class="mission__vision"></aside>
+      <section class="mission__text">
+        <header>Transform your brand</header>
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through
+          compelling visuals that do most of the marketing for you.
+        </p>
+        <a href="/">Learn more</a>
+      </section>
+    </article>
+
+    <article class="mission standout">
+      <aside class="mission__vision"></aside>
+      <section class="mission__text">
+        <header>Stand out to the right audience</header>
+        <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+          build and extend your brand in digital places.
+        </p>
+        <a href="/">Learn more</a>
+      </section>
+    </article>
+
+    <article class="services" id="services">
+      <section class="service design services__service">
+        <div class="service__text">
+          <header>Graphic design</header>
+          <p>
+            Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+            potential clients attention.
+          </p>
+        </div>
+      </section>
+
+      <section class="service photo services__service">
+        <div class="service__text">
+          <header>Photography</header>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business
+            image.
+          </p>
+        </div>
+      </section>
+    </article>
+
+    <article class="testimonials">
+      <header class="testimonials__header">Client testimonials</header>
+
+      <section class="profiles testimonials__profiles">
+        <article class="profile profiles__profile">
+          <img class="profile__avatar" src="./img/image-emily.jpg" alt="avatar">
+
+          <p class="profile__feedback">
+            We put our trust in Sunnyside and they deliver making sure our needs were met and deadlines were always hit.
+          </p>
+
+          <footer class="profile__client">
+            <p class="profile__name">Emily R.</p>
+            <p class="profile__job"> Marketing Director</p>
+          </footer>
+        </article>
+
+        <article class="profile profiles__profile">
+          <img class="profile__avatar" src="./img/image-thomas.jpg" alt="avatar">
+
+          <p class="profile__feedback">
+            Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and
+            enjoyable experience.
+          </p>
+
+          <footer class="profile__client">
+            <p class="profile__name">Thomas S.</p>
+            <p class="profile__job">Chief Operating Officer</p>
+          </footer>
+        </article>
+
+        <article class="profile profiles__profile">
+          <img class="profile__avatar" src="./img/image-jennie.jpg" alt="avatar">
+
+          <p class="profile__feedback">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+
+          <footer class="profile__client">
+            <p class="profile__name">Jennie F.</p>
+            <p class="profile__job">Business Owner</p>
+          </footer>
+        </article>
+      </section>
+    </article>
+
+    <article class="random" id="projects">
+      <div class="milk"></div>
+      <div class="orange"></div>
+      <div class="cone"></div>
+      <div class="sugar"></div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <img class="logo" src="./img/logo.svg" alt="">
+
+    <ul class="footer__menu">
+      <li><a href="/">About</a> </li>
+      <li><a href="/">Services</a> </li>
+      <li><a href="/">Projects</a></li>
+    </ul>
+
+    <ul class="footer__social">
+      <li>
+        <a href="/" target="_blank">
+          <img src="./img/icon-facebook.svg" alt="facebook">
+        </a>
+      </li>
+      <li>
+        <a href="/" target="_blank">
+          <img src="./img/icon-instagram.svg" alt="instagram">
+        </a>
+      </li>
+      <li>
+        <a href="/" target="_blank">
+          <img src="./img/icon-twitter.svg" alt="twitter">
+        </a>
+      </li>
+      <li>
+        <a href="/" target="_blank">
+          <img src="./img/icon-pinterest.svg" alt="pinterest">
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
